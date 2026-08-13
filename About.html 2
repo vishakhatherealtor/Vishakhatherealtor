@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About Us | Vishakha Cars</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+
+        <div class="logo">
+            Vishakha <span>Cars</span>
+        </div>
+
+        <nav id="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html" class="active">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+    </header>
+
+
+    <!-- About Hero -->
+    <section class="page-hero">
+
+        <div>
+            <p>VISHAKHA CARS</p>
+            <h1>About Our Business</h1>
+        </div>
+
+    </section>
+
+
+    <!-- About Content -->
+    <section class="about-section">
+
+        <div class="about-text">
+
+            <p class="small-title">ABOUT US</p>
+
+            <h2>Welcome to Vishakha Cars</h2>
+
+            <p>
+                Vishakha Cars is a car business established since
+                <strong>2000</strong>.
+            </p>
+
+            <p>
+                Our aim is to help customers find suitable vehicles
+                while providing a simple, reliable and customer-friendly
+                car buying experience.
+            </p>
+
+            <p>
+                Whether you are looking for a family car, SUV, sedan
+                or another type of vehicle, you can contact us for
+                available cars and further information.
+            </p>
+
+        </div>
+
+
+        <div class="owner-card">
+
+            <div class="owner-icon">👤</div>
+
+            <h2>Business Owner</h2>
+
+            <h3>Vishakha Kumawat</h3>
+
+            <p>
+                Established Since <strong>2000</strong>
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Business Information -->
+    <section class="business-info">
+
+        <div class="section-title">
+            <p>OUR INFORMATION</p>
+            <h2>Business Details</h2>
+        </div>
+
+
+        <div class="info-grid">
+
+            <div class="info-box">
+                <div>👤</div>
+                <h3>Owner</h3>
+                <p>Vishakha Kumawat</p>
+            </div>
+
+
+            <div class="info-box">
+                <div>📅</div>
+                <h3>Established</h3>
+                <p>Since 2000</p>
+            </div>
+
+
+            <div class="info-box">
+                <div>📞</div>
+                <h3>Phone</h3>
+                <p>8209296074</p>
+            </div>
+
+
+            <div class="info-box">
+                <div>📍</div>
+                <h3>Address</h3>
+                <p>Deshvali Mohalla, Near Ram Mandir</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CTA -->
+    <section class="cta">
+
+        <h2>Want to Know More?</h2>
+
+        <p>
+            Get in touch with Vishakha Cars today.
+        </p>
+
+        <a href="contact.html" class="btn">Contact Us</a>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="footer-content">
+
+            <div>
+                <h2>Vishakha Cars</h2>
+                <p>Your trusted destination for cars.</p>
+            </div>
+
+            <div>
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div>
+                <h3>Contact</h3>
+                <p>📞 8209296074</p>
+                <p>📍 Deshvali Mohalla, Near Ram Mandir</p>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            © <span id="year"></span> Vishakha Cars. All Rights Reserved.
+        </div>
+
+    </footer>
+
+
+    <!-- WhatsApp -->
+    <a class="whatsapp" href="https://wa.me/918209296074" target="_blank">
+        WhatsApp
+    </a>
+
+
+    <script src="style.js"></script>
+
+</body>
+</html>
