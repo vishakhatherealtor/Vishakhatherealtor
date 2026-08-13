@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us | Vishakha Cars</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+
+        <div class="logo">
+            Vishakha <span>Cars</span>
+        </div>
+
+        <nav id="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+    </header>
+
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+
+        <div>
+            <p>VISHAKHA CARS</p>
+            <h1>Contact Us</h1>
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+
+        <div class="contact-details">
+
+            <p class="small-title">GET IN TOUCH</p>
+
+            <h2>Let's Talk About Your Next Car</h2>
+
+            <p>
+                Have questions about a car? Contact us directly
+                and we will be happy to help.
+            </p>
+
+
+            <div class="contact-item">
+
+                <div class="contact-icon">📞</div>
+
+                <div>
+                    <h3>Phone</h3>
+                    <a href="tel:8209296074">
+                        8209296074
+                    </a>
+                </div>
+
+            </div>
+
+
+            <div class="contact-item">
+
+                <div class="contact-icon">💬</div>
+
+                <div>
+                    <h3>WhatsApp</h3>
+                    <a href="https://wa.me/918209296074" target="_blank">
+                        Chat on WhatsApp
+                    </a>
+                </div>
+
+            </div>
+
+
+            <div class="contact-item">
+
+                <div class="contact-icon">📍</div>
+
+                <div>
+                    <h3>Address</h3>
+                    <p>
+                        Deshvali Mohalla,<br>
+                        Near Ram Mandir
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+
+            <h2>Send Us a Message</h2>
+
+            <form onsubmit="sendMessage(event)">
+
+                <label for="name">Your Name</label>
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter your name"
+                    required
+                >
+
+
+                <label for="phone">Phone Number</label>
+
+                <input
+                    type="tel"
+                    id="phone"
+                    placeholder="Enter your phone number"
+                    required
+                >
+
+
+                <label for="message">Message</label>
+
+                <textarea
+                    id="message"
+                    rows="5"
+                    placeholder="Tell us what car you are looking for..."
+                    required
+                ></textarea>
+
+
+                <button type="submit" class="btn">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="footer-content">
+
+            <div>
+                <h2>Vishakha Cars</h2>
+                <p>Your trusted destination for cars.</p>
+            </div>
+
+            <div>
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div>
+                <h3>Contact</h3>
+                <p>📞 8209296074</p>
+                <p>📍 Deshvali Mohalla, Near Ram Mandir</p>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            © <span id="year"></span> Vishakha Cars. All Rights Reserved.
+        </div>
+
+    </footer>
+
+
+    <!-- WhatsApp Button -->
+    <a class="whatsapp" href="https://wa.me/918209296074" target="_blank">
+        WhatsApp
+    </a>
+
+
+    <script src="style.js"></script>
+
+</body>
+</html>
